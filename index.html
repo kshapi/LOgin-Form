@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student</title>
+  <!-- Css link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CDN link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+  <div class="main">
+    <h2>LOGIN</h2>
+    <form action="#">
+      <div class="frist-field">
+        <span>Username</span>
+        <input type="text" name="userName" placeholder="User Name">
+        <i class="bi bi-person"></i>
+        <i class="bi bi-exclamation-circle-fill" id="warn-name"></i>
+      </div>
+      
+      <div class="secend-field">
+        <span>Password</span>
+        <input type="password" name="userPass" placeholder="Password">
+        <i class="bi bi-shield-lock"></i>
+        <i class="bi bi-exclamation-circle-fill" id="warn-pass"></i>
+        <i class="bi bi-eye"></i>
+      </div>
+      
+      <span class="forget-pass">forget password?</span>
+      <button class="login-btn">Login</button>
+    </form>
+    <div class="others">
+      <span>Sign Up Using </span>
+      <div class="socials">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-google"></i>
+      </div>
+    </div>
+  </div>
+<!--Script-->
+<script src="script.js"></script>
+</body>
+</html>
